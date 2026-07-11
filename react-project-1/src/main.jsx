@@ -14,7 +14,13 @@ import madara from "./images/madara.jpeg"
 
 const root = createRoot(document.getElementById("root")).render(
   <>
-    
+    <Main />
+  </>
+  )
+  
+  function Main(){
+  return(
+    <>
     <Header />
      <App
     src={eren}
@@ -80,7 +86,10 @@ const root = createRoot(document.getElementById("root")).render(
     catagory="Action"
     />
     <Footer />
+      
+    </>
     
-  </>
-  )
+    )
+    
+  }
   
