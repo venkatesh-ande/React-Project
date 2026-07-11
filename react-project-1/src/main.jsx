@@ -38,21 +38,21 @@ const root = createRoot(document.getElementById("root")).render(
     />
     <App
     src={itachi}
-    name="Itachi Uchia"
+    name="Itachi Uchiha"
     nickname="Clan killer"
     anime="Naruto"
-    catagory="Action"
+    catagory="Action/Drama"
     />
     <App
     src={obito}
-    name="Obito Uchia"
-    nickname="Hacker Uchia"
+    name="Obito Uchiha"
+    nickname="Hacker Uchiha"
     anime="Naruto"
-    catagory="Action"
+    catagory="Action/Drama"
     />
     <App
     src={ichigo}
-    name="Ichigo kurasiki"
+    name="Ichigo Kurosaki"
     nickname="Substitute Soal Reaper"
     anime="Bleach"
     catagory="Action"
@@ -66,24 +66,24 @@ const root = createRoot(document.getElementById("root")).render(
     />
         <App
     src={zoro}
-    name="Roranavo Zoro"
+    name="Roronoa Zoro"
     nickname="Pirate Hunter"
     anime="one piece"
     catagory="Action"
     />
         <App
     src={sasuke}
-    name="Sasuke Uchia"
-    nickname="The last  Uchia"
+    name="Sasuke Uchiha"
+    nickname="The last  Uchiha"
     anime="Naruto"
-    catagory="Action"
+    catagory="Action/Drama"
     />
         <App
     src={madara}
-    name="Madara Uchia"
-    nickname="The Ghost of the Uchia"
+    name="Madara Uchiha"
+    nickname="The Ghost of the Uchiha"
     anime="Naruto"
-    catagory="Action"
+    catagory="Action/Drama"
     />
     <Footer />
       
