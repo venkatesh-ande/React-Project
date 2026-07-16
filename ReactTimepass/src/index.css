@@ -40,7 +40,7 @@ button ,p,span ,h1{
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
-  gap: 20px;
+  gap: 27px;
   padding: 30px 20px;
   box-shadow: 0px 4px 10px 6px rgba(0, 0, 0, 0.15);
   padding-left: 40px;
@@ -48,11 +48,12 @@ button ,p,span ,h1{
 .catagory-div >button{
   padding: 10px 20px;
   font-size: 23px;
-  border-style: solid;
-  background-color: lightgrey;
+  border-style: none;
+  background-color:white;
   color: black;
   font-weight: bold;
   border-radius: 30px;
+  box-shadow: 3px 4px 10px 5px rgba(0, 0, 0, 0.15);
 }
 
 .search{
@@ -91,12 +92,13 @@ article {
   justify-content: center;
   align-items: center;
   padding: 0 0px;
+  margin: 0px 0px;
   
 }
 
 
 .item-subcontainer{
-  box-shadow: 0px 4px 10px 6px rgba(0, 0, 0, 0.15);
+ box-shadow: 0px 4px 10px 6px rgba(0, 0, 0, 0.15);
   padding: 30px 50px;
   border-radius: 10px;
   background-color:;
@@ -167,13 +169,40 @@ article {
   margin: 20px 0 10px 10px;
   font-weight: bold;
 }
-
+footer{
+  position: relative;
+  margin: 100px 0 0 0;
+}
 .footer-div{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: grey;
-  height: 30px;
+  height: 40px;
   color: whitesmoke;
+  font-size: 20px;
   font-weight: bold;
+  
+  
+}
+
+.no-data-div{
+  
+  
+  
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 100px 0 0 0;
+}
+.no-data-div > div>img{
+  width: 50px;
+  padding: 0 0 0 80px;
+
+  
+  
+  
 }
